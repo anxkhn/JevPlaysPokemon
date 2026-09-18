@@ -1,0 +1,20 @@
+{
+  "name": "JevPlaysPokemon",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "description": "Jev plays Generation 3 Pokémon via Showdown and a real FireRed ROM.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anxkhn/JevPlaysPokemon.git"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test",
+    "smoke": "node cli.js --agent baseline --opponent all",
+    "check": "node --check cli.js && node --check battle.js && node --check jev.js && node --check teams.js"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": { "pokemon-showdown": "0.11.11" }
+}
