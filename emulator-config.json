@@ -1,0 +1,74 @@
+{
+  "game": "firered-v1.1",
+  "opponent": "lorelei",
+  "agent": "jev",
+  "speed": 4,
+  "audio": true,
+  "battle_style": "set",
+  "animations": true,
+  "max_decisions": 150,
+  "auto_advance": true,
+  "party": [
+    {
+      "species": "Jolteon",
+      "level": 40,
+      "moves": [
+        "Thunderbolt",
+        "Bite",
+        "Thunder Wave",
+        "Double Kick"
+      ]
+    },
+    {
+      "species": "Lapras",
+      "level": 40,
+      "moves": [
+        "Surf",
+        "Ice Beam",
+        "Thunderbolt",
+        "Confuse Ray"
+      ]
+    },
+    {
+      "species": "Alakazam",
+      "level": 40,
+      "moves": [
+        "Psychic",
+        "Recover",
+        "Calm Mind",
+        "Reflect"
+      ]
+    },
+    {
+      "species": "Charizard",
+      "level": 40,
+      "moves": [
+        "Flamethrower",
+        "Fly",
+        "Slash",
+        "Dragon Claw"
+      ]
+    },
+    {
+      "species": "Snorlax",
+      "level": 40,
+      "moves": [
+        "Body Slam",
+        "Shadow Ball",
+        "Earthquake",
+        "Rest"
+      ]
+    },
+    {
+      "species": "Nidoking",
+      "level": 40,
+      "moves": [
+        "Earthquake",
+        "Rock Slide",
+        "Ice Beam",
+        "Megahorn"
+      ]
+    }
+  ],
+  "opponent_party": null
+}

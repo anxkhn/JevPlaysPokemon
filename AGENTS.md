@@ -1,0 +1,1 @@
+- Frame stepping may stop inside a FireRed callback. Wait for stable menu state and resolve Pokémon by personality before submitting a switch; never reuse pre-transition party-slot mappings.
